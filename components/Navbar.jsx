@@ -2,7 +2,7 @@ function Navbar() {
   return (
     <div className="fixed top-0 bg-white/40 backdrop-blur-md w-full h-20 shadow-sm p-3 flex items-center justify-between">
       <div className="flex items-center">
-        <span className="text-2xl font-extrabold text-gray-800">MT</span>
+        <span className="text-2xl font-extrabold text-gray-800"><a href="#main">MT</a></span>
       </div>
 
       <div className="flex items-center justify-center">

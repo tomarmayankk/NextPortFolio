@@ -11,11 +11,11 @@ function Footer() {
         <ul className="space-y-2">
           <li className="flex items-center gap-2 hover:text-amber-400 transition-colors">
             <Github />
-            <Link href="https://github.com/" target="_blank">GitHub</Link>
+            <Link href="https://github.com/tomarmayankk/" target="_blank">GitHub</Link>
           </li>
           <li className="flex items-center gap-2 hover:text-amber-400 transition-colors">
             <SiHashnode />
-            <Link href="https://hashnode.com/" target="_blank">Hashnode</Link>
+            <Link href="https://hashnode.com/@tomarmayankk" target="_blank">Hashnode</Link>
           </li>
         </ul>
       </div>
@@ -24,11 +24,11 @@ function Footer() {
         <ul className="space-y-2">
           <li className="flex items-center gap-2 hover:text-amber-400 transition-colors">
             <Email />
-            <Link href="mailto:youremail@example.com">Email</Link>
+            <Link href="mailto:youremail@example.com">mayanktomar.contact@gmail.com</Link>
           </li>
           <li className="flex items-center gap-2 hover:text-amber-400 transition-colors">
             <Linkedin />
-            <Link href="https://linkedin.com/" target="_blank">LinkedIn</Link>
+            <Link href="https://www.linkedin.com/in/tomarmayankk/" target="_blank">LinkedIn</Link>
           </li>
         </ul>
       </div>
