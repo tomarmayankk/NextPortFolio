@@ -1,5 +1,7 @@
+"use client"
 import React from "react";
 import { PROJECTS } from "../data/General.js";
+import {motion } from "motion/react"
 
 const Test = () => {
   return (
@@ -8,7 +10,9 @@ const Test = () => {
       
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl w-full">
         {PROJECTS.map((project, index) => (
-          <div
+          <motion.div
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.8 }}
             key={index}
             className="bg-gray-800 p-4 rounded-lg shadow-md hover:bg-gray-700 cursor-pointer transition-colors duration-200"
           >
@@ -48,7 +52,7 @@ const Test = () => {
                 </a>
               )}
             </div>
-          </div>
+          </motion.div>
         ))}
       </div>
     </div>

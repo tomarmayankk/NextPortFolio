@@ -1,12 +1,17 @@
+"use client"
+import { AnimatePresence, motion } from "motion/react"
 function Main() {
   return (
     <div className="pb-4 flex items-center justify-center h-screen">
         <div>
-        <div className="flex items-center justify-center mb-2">
+        <motion.div   
+             whileHover={{ scale: 1.2 }}
+             whileTap={{ scale: 0.8 }}
+  className="flex items-center justify-center mb-2">
           <h1 className="text-6xl text-gray-800 font-bold">
             MAYANK TOMAR
           </h1>
-        </div>
+        </motion.div>
         <div className="flex items-center justify-center mb-2">
           <label className="font-semibold text-2xl bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 text-transparent bg-clip-text neon-gradient">
             Full Stack Developer

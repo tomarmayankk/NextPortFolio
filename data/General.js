@@ -27,6 +27,26 @@ export const PROJECTS = [
     technologies: ["JAVA", "Java awt", "Java swing"],
     github: "https://github.com/tomarmayankk/pacman-java",
   },
+  {
+    title: "Task Managaer",
+    description: "Task manager app built using MERN stack",
+    technologies: ["React", "Tailwind", "Node.js", "express", "MongoDB"],
+    github: "https://github.com/tomarmayankk/React-task-manager",
+  },
+  {
+    title: "Movix",
+    description: "Front-end for movie application",
+    technologies: ["React", "Rapid Api", "react-router"],
+    github: "https://github.com/tomarmayankk/Movix",
+    live: "https://movix-six-navy.vercel.app/",
+  },
+  {
+    title: "Currency Converter",
+    description: "A simple npm package for currency conversion",
+    technologies: ["JavaScript", "NodeJs", "npm"],
+    github: "https://github.com/tomarmayankk/cc-currency-converter",
+    live: "https://www.npmjs.com/package/cc-currency-converter",
+  },
 ];
 
 export const CONTACT = {
