@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "MayanK Tomar",
+  title: "Mayank Tomar",
   description: "Personal PortFolio",
 };
 
